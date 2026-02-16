@@ -9,7 +9,7 @@ const Review = () => {
   }, []);
 
   return (
-    <section className="bg-slate-200 py-16 px-4">
+    <section className="bg-slate-200 py-16 px-8 md:px-20">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 items-center py-12">
 
         {/* ========= Left Content ========= */}

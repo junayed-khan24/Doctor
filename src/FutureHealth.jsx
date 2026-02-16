@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaArrowRight } from "react-icons/fa";
-import img from "../src/assets/img2.png"
+import img from "../src/assets/img.png"
 
 const FutureHealth = () => {
   useEffect(() => {
@@ -10,7 +10,7 @@ const FutureHealth = () => {
   }, []);
 
   return (
-    <section className="bg-gray-100 py-16 px-4 md:pt-20">
+    <section className="bg-gray-100 py-16 px-8 md:px-20 md:pt-20">
       <div className="max-w-7xl mx-auto">
 
         {/* ===== Top Content ===== */}
