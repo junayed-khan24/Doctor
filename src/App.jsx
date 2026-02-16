@@ -1,5 +1,7 @@
 
 import './App.css'
+import FutureHealth from './FutureHealth'
+import Review from './Review'
 import Service from './Service'
 
 function App() {
@@ -8,6 +10,8 @@ function App() {
     <>
      <div>
      <Service></Service>
+     <Review></Review>
+     <FutureHealth></FutureHealth>
      </div>
     </>
   )
