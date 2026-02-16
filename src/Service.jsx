@@ -7,29 +7,7 @@ import {
   FaCheckCircle,
 } from "react-icons/fa";
 
-const services = [
-  {
-    id: 1,
-    title: "Covid-19 Test",
-    icon: <FaVirus />,
-  },
-  {
-    id: 2,
-    title: "Heart Lungs",
-    icon: <FaHeartbeat />,
-    active: true,
-  },
-  {
-    id: 3,
-    title: "Supplement",
-    icon: <FaCapsules />,
-  },
-  {
-    id: 4,
-    title: "Mental Health",
-    icon: <FaBrain />,
-  },
-];
+
 
 const Service = () => {
   return (
@@ -40,45 +18,19 @@ const Service = () => {
           Our Consulting Specialists
         </h2>
 
-        {/* ================= Top Cards ================= */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-          {services.map((service) => (
-            <div
-              key={service.id}
-              className={`
-              card border rounded-2xl transition-all duration-300 cursor-pointer
-              ${
-                service.active
-                  ? "bg-primary text-white shadow-xl"
-                  : "bg-white hover:bg-primary hover:text-white"
-              }
-              `}
-            >
-              <div className="card-body items-start">
-                <div
-                  className={`
-                  text-3xl p-4 rounded-full mb-4
-                  ${
-                    service.active
-                      ? "bg-white text-primary"
-                      : "bg-primary/10 text-primary"
-                  }
-                  `}
-                >
-                 <div className="hover:text-white">
-                     {service.icon}
-                 </div>
-                </div>
-
-                <h3 className="text-lg font-semibold">{service.title}</h3>
-
-                <p className="text-sm opacity-80">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem
-                  velit viverra amet faucibus.
-                </p>
-              </div>
+   
+      {/* ================= Top Section ================= */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+          {/* Service Item */}
+          <div>
+            <div className="bg-white rounded-3xl p-6 shadow-lg hover:shadow-xl hover:bg-primary hover:text-white transition duration-300 border border-gray-200">
+              <FaVirus className=" p-2 rounded-full text-primary bg-secondary text-5xl mb-4" />
+              <h3 className="text-xl font-semibold mb-2">Infectious Diseases</h3>
+              <p className="">
+                Expert care for infectious diseases, ensuring accurate diagnosis and effective treatment.
+              </p>
             </div>
-          ))}
+          </div>
         </div>
 
         {/* ================= Bottom Section ================= */}
