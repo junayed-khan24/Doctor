@@ -1,4 +1,5 @@
 import React from "react";
+import { BsLungs } from "react-icons/bs";
 import {
   FaVirus,
   FaHeartbeat,
@@ -6,6 +7,8 @@ import {
   FaBrain,
   FaCheckCircle,
 } from "react-icons/fa";
+import { FaVirusCovid } from "react-icons/fa6";
+import { RiMentalHealthLine } from "react-icons/ri";
 
 
 
@@ -24,17 +27,47 @@ const Service = () => {
           {/* Service Item */}
           <div>
             <div className="bg-white rounded-3xl p-6 shadow-lg hover:shadow-xl hover:bg-primary hover:text-white transition duration-300 border border-gray-200">
-              <FaVirus className=" p-2 rounded-full text-primary bg-secondary text-5xl mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Infectious Diseases</h3>
-              <p className="">
-                Expert care for infectious diseases, ensuring accurate diagnosis and effective treatment.
+              <FaVirusCovid className=" p-3 rounded-full text-primary bg-secondary text-6xl  mb-4 mt-2" />
+              <h3 className="text-xl font-semibold mb-2">Covid-19 Test</h3>
+              <p className="text-xs font-medium">
+                Covid-19 testing helps detect infection early and prevents the spread of coronavirus worldwide.
+              </p>
+            </div>
+          </div>
+
+            <div>
+            <div className="bg-white rounded-3xl p-6 shadow-lg hover:shadow-xl hover:bg-primary hover:text-white transition duration-300 border border-gray-200">
+              <BsLungs className=" p-3 rounded-full text-primary bg-secondary text-6xl  mb-4 mt-2" />
+              <h3 className="text-xl font-semibold mb-2">Lung Health</h3>
+              <p className="text-xs font-medium">
+                Comprehensive lung health  assessments to  detect and  monitor respiratory conditions conditions.
+              </p>
+            </div>
+          </div>  
+          
+          <div>
+            <div className="bg-white rounded-3xl p-6 shadow-lg hover:shadow-xl hover:bg-primary hover:text-white transition duration-300 border border-gray-200">
+              <FaCapsules className=" p-3 rounded-full text-primary bg-secondary text-6xl  mb-4 mt-2" />
+              <h3 className="text-xl font-semibold mb-2">Suppliment</h3>
+              <p className="text-xs font-medium">
+                Dietary supplements provide essential vitamins and minerals to support overall health and immunity.
+              </p>
+            </div>
+          </div> 
+          
+           <div>
+            <div className="bg-white rounded-3xl p-6 shadow-lg hover:shadow-xl hover:bg-primary hover:text-white transition duration-300 border border-gray-200">
+              <RiMentalHealthLine className=" p-3 rounded-full text-primary bg-secondary text-6xl  mb-4 mt-2" />
+              <h3 className="text-xl font-semibold mb-2">Mental Health</h3>
+              <p className="text-xs font-medium">
+                Comprehensive mental health assessments to detect and monitor psychological conditions.
               </p>
             </div>
           </div>
         </div>
 
         {/* ================= Bottom Section ================= */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center mt-10 md:mt-36 sm:mt-20">
           {/* Image */}
           <div className="rounded-3xl overflow-hidden shadow-lg">
             <img
