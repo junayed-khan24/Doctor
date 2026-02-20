@@ -76,7 +76,7 @@ const Hero = () => {
         data-aos-delay="150"
         className="text-white border-y sm:border-y-0 lg:border-x border-white/30 py-6 lg:py-0"
       >
-        <h2 className="text-5xl md:text-7xl font-bold">100+</h2>
+        <h2 className="text-5xl md:text-7xl font-bold">50+</h2>
         <p className="mt-2 text-sm opacity-90">Expert Doctors</p>
       </div>
 
