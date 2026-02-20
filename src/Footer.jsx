@@ -17,7 +17,7 @@ const Footer = () => {
 
           {/* ========= Column 1 ========= */}
           <div data-aos="fade-up">
-            <h2 className="text-2xl font-bold mb-4">E-sheba</h2>
+            <h2 className="text-2xl font-bold mb-4">oxcare</h2>
 
             <p className="text-sm text-gray-200 leading-relaxed mb-4">
               We provide trusted and modern healthcare services with advanced
@@ -58,7 +58,7 @@ const Footer = () => {
             <div className="rounded-2xl overflow-hidden shadow-lg">
               <iframe
                 title="map"
-                src="https://www.google.com/maps?q=Dhaka,Bangladesh&output=embed"
+                src="https://www.google.com/maps?q=NweyerkCity,Bangladesh&output=embed"
                 className="w-full h-40 border-0"
                 loading="lazy"
               ></iframe>

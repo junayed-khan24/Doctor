@@ -10,7 +10,7 @@ const FutureHealth = () => {
   }, []);
 
   return (
-    <section className="bg-gray-100 py-16 px-8 md:px-20 md:pt-20">
+    <section className="bg-gray-100 py-16 md:py-24 px-8 md:px-20 md:pt-20">
       <div className="max-w-7xl mx-auto">
 
         {/* ===== Top Content ===== */}

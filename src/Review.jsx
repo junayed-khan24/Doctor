@@ -9,11 +9,11 @@ const Review = () => {
   }, []);
 
   return (
-    <section className="bg-slate-200 py-16 px-8 md:px-20">
+    <section className="bg-slate-200 py-16 md:py-24 px-8 md:px-20">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 items-center py-12">
 
         {/* ========= Left Content ========= */}
-        <div data-aos="fade-right">
+        <div data-aos="fade-down-left">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             What <span className="text-primary">Our Member’s</span>
             <br /> Saying About Us
@@ -57,7 +57,7 @@ const Review = () => {
         </div>
 
         {/* ========= Right Card ========= */}
-        <div data-aos="fade-left">
+        <div data-aos="fade-up-right">
           <div className="bg-white rounded-2xl shadow-xl p-8 border border-gray-200">
 
             {/* Top Info */}

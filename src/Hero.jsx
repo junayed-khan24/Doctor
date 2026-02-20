@@ -12,7 +12,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="bg-secondary overflow-hidden">
+    <section className="bg-secondary overflow-hidden ">
           <div className="max-w-7xl mx-auto px-6 ">
 
         {/* ===== Grid ===== */}
@@ -51,7 +51,7 @@ const Hero = () => {
             <img
               src={img}   /* use your image path */
               alt="doctor"
-              className="w-[260px] md:w-[380px] lg:w-[800px] object-contain"
+              className="w-[260px] md:w-[380px] lg:w-[700px] object-contain"
             />
           </div>
 
@@ -67,7 +67,7 @@ const Hero = () => {
       {/* Item 1 */}
       <div data-aos="fade-up" className="text-white">
         <h2 className="text-5xl md:text-7xl font-bold">24/7</h2>
-        <p className="mt-2 text-sm opacity-90">Emergency Support</p>
+        <p className="mt-2 text-sm opacity-90">Online Support</p>
       </div>
 
       {/* Item 2 */}
@@ -82,7 +82,7 @@ const Hero = () => {
 
       {/* Item 3 */}
       <div data-aos="fade-up" data-aos-delay="300" className="text-white">
-        <h2 className="text-5xl md:text-7xl font-bold">10K+</h2>
+        <h2 className="text-5xl md:text-7xl font-bold">50K+</h2>
         <p className="mt-2 text-sm opacity-90">Happy Patients</p>
       </div>
 

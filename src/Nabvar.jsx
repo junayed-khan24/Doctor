@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div
       data-aos="fade-down"
-      className="navbar bg-secondary/90 backdrop-blur sticky top-0 z-50 px-6 lg:px-20"
+      className="navbar bg-secondary/90 backdrop-blur sticky top-0 z-50 px-6 lg:px-16"
     >
       {/* ===== Left Logo ===== */}
       <div className="navbar-start">
@@ -44,11 +44,11 @@ const Navbar = () => {
       {/* ===== Desktop Menu ===== */}
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 gap-6 text-gray-700 font-medium">
-          <li><a className="hover:text-success">Home</a></li>
-          <li><a className="hover:text-success">About</a></li>
-          <li><a className="hover:text-success">Doctors</a></li>
-          <li><a className="hover:text-success">Services</a></li>
-          <li><a className="hover:text-success">Contact</a></li>
+          <li><a className="hover:text-primary">Home</a></li>
+          <li><a className="hover:text-primary">About</a></li>
+          <li><a className="hover:text-primary">Doctors</a></li>
+          <li><a className="hover:text-primary">Services</a></li>
+          <li><a className="hover:text-primary">Contact</a></li>
         </ul>
       </div>
 
