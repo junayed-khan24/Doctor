@@ -13,7 +13,7 @@ const Hero = () => {
 
   return (
     <section className="bg-secondary overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 py-16">
+          <div className="max-w-7xl mx-auto px-6 ">
 
         {/* ===== Grid ===== */}
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
@@ -33,11 +33,11 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="btn btn-success text-white">
+              <button className="btn btn-primary text-white">
                 Get Appointment
               </button>
 
-              <button className="btn btn-outline btn-success">
+              <button className="btn btn-outline border-primary text-primary hover:bg-primary hover:text-white">
                 Find Specialist
               </button>
             </div>
@@ -57,6 +57,40 @@ const Hero = () => {
 
         </div>
       </div>
+
+    
+      <div className="bg-primary">
+  <div className="max-w-7xl mx-auto px-6 py-10">
+
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 text-center gap-8">
+
+      {/* Item 1 */}
+      <div data-aos="fade-up" className="text-white">
+        <h2 className="text-5xl md:text-7xl font-bold">24/7</h2>
+        <p className="mt-2 text-sm opacity-90">Emergency Support</p>
+      </div>
+
+      {/* Item 2 */}
+      <div
+        data-aos="fade-up"
+        data-aos-delay="150"
+        className="text-white border-y sm:border-y-0 lg:border-x border-white/30 py-6 lg:py-0"
+      >
+        <h2 className="text-5xl md:text-7xl font-bold">100+</h2>
+        <p className="mt-2 text-sm opacity-90">Expert Doctors</p>
+      </div>
+
+      {/* Item 3 */}
+      <div data-aos="fade-up" data-aos-delay="300" className="text-white">
+        <h2 className="text-5xl md:text-7xl font-bold">10K+</h2>
+        <p className="mt-2 text-sm opacity-90">Happy Patients</p>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
     </section>
   );
 };
