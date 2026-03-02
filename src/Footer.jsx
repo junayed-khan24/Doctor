@@ -73,10 +73,20 @@ const Footer = () => {
         {/* ===== Bottom ===== */}
         <div
           data-aos="fade-in"
-          className="text-center text-xs text-gray-200"
+          className="text-center text-xl text-black  "
         >
           © 2022 All Rights Reserved
         </div>
+
+        <a href="https://junayedkhan.vercel.app" target="_blank" rel="noopener noreferrer">
+          <div>
+              <div className="flex justify-center mt-4">
+           <button className="btn btn-link text-white hover:text-gray-500 border-white underline-none" >
+              Developed by Junayed Khan <img src="/src/assets/junayed12.png" alt="junayed" className="h-6 w-6 rounded-full" />
+              </button>
+            </div>
+          </div>
+        </a>
 
       </div>
     </footer>

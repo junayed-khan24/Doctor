@@ -10,7 +10,7 @@ const FutureHealth = () => {
   }, []);
 
   return (
-    <section className="bg-gray-100 py-16 md:py-24 px-8 md:px-20 md:pt-20">
+    <section className="bg-gray-100 py-16 md:py-24 px-8 md:px-20 ">
       <div className="max-w-7xl mx-auto">
 
         {/* ===== Top Content ===== */}
@@ -58,27 +58,7 @@ const FutureHealth = () => {
           </div>
         </div>
 
-        {/* ===== Newsletter Card ===== */}
-        <div
-          data-aos="zoom-in"
-          className="bg-primary text-white mt-16 rounded-2xl p-8 md:p-12 shadow-xl"
-        >
-          <h3 className="text-center text-xl md:text-2xl font-semibold mb-6">
-            Subscribe To Our Newsletter
-          </h3>
-
-          <div className="flex  gap-4 max-w-2xl mx-auto">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="input input-bordered w-full text-black rounded-full"
-            />
-
-            <button className="btn rounded-full bg-white text-primary hover:bg-gray-100">
-              <FaArrowRight />
-            </button>
-          </div>
-        </div>
+      
 
       </div>
     </section>

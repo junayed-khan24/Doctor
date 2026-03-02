@@ -15,8 +15,8 @@ function App() {
       <Navbar></Navbar>
       <Hero></Hero>
      <Service></Service>
-     <Review></Review>
      <FutureHealth></FutureHealth>
+     <Review></Review>
      <Footer></Footer>
      </div>
     </>

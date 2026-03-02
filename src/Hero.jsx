@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import CountUp from "react-countup";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import img from "../src/assets/pngtree-photo-men-doctor-physici.png"
@@ -59,37 +60,43 @@ const Hero = () => {
       </div>
 
     
-      <div className="bg-primary">
-  <div className="max-w-7xl mx-auto px-6 py-10">
+        <div className="bg-primary">
+      <div className="max-w-7xl mx-auto px-6 py-10">
 
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 text-center gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 text-center gap-8">
 
-      {/* Item 1 */}
-      <div data-aos="fade-up" className="text-white">
-        <h2 className="text-5xl md:text-7xl font-bold">24/7</h2>
-        <p className="mt-2 text-sm opacity-90">Online Support</p>
+          {/* Item 1 */}
+          <div data-aos="fade-up" className="text-white">
+            <h2 className="text-5xl md:text-7xl font-bold">
+              <CountUp end={24} duration={2} />/7
+            </h2>
+            <p className="mt-2 text-sm opacity-90">Online Support</p>
+          </div>
+
+          {/* Item 2 */}
+          <div
+            data-aos="fade-up"
+            data-aos-delay="150"
+            className="text-white border-y sm:border-y-0 lg:border-x border-white/30 py-6 lg:py-0"
+          >
+            <h2 className="text-5xl md:text-7xl font-bold">
+              <CountUp end={120} duration={2} />+
+            </h2>
+            <p className="mt-2 text-sm opacity-90">Expert Doctors</p>
+          </div>
+
+          {/* Item 3 */}
+          <div data-aos="fade-up" data-aos-delay="300" className="text-white">
+            <h2 className="text-5xl md:text-7xl font-bold">
+              <CountUp end={50000} duration={3} separator="," />+
+            </h2>
+            <p className="mt-2 text-sm opacity-90">Happy Patients</p>
+          </div>
+
+        </div>
+
       </div>
-
-      {/* Item 2 */}
-      <div
-        data-aos="fade-up"
-        data-aos-delay="150"
-        className="text-white border-y sm:border-y-0 lg:border-x border-white/30 py-6 lg:py-0"
-      >
-        <h2 className="text-5xl md:text-7xl font-bold">50+</h2>
-        <p className="mt-2 text-sm opacity-90">Expert Doctors</p>
-      </div>
-
-      {/* Item 3 */}
-      <div data-aos="fade-up" data-aos-delay="300" className="text-white">
-        <h2 className="text-5xl md:text-7xl font-bold">50K+</h2>
-        <p className="mt-2 text-sm opacity-90">Happy Patients</p>
-      </div>
-
     </div>
-
-  </div>
-</div>
 
     </section>
   );
