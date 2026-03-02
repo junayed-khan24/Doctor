@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import img from "../src/assets/pngtree-photo-men-doctor-physici.png"
 
+
 const Hero = () => {
   useEffect(() => {
     AOS.init({

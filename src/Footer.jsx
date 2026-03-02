@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import junayed from "../src/assets/junayed12.png"
 
 const Footer = () => {
   useEffect(() => {
@@ -82,7 +83,7 @@ const Footer = () => {
           <div>
               <div className="flex justify-center mt-4">
            <button className="btn btn-link text-white hover:text-gray-500 border-white underline-none" >
-              Developed by Junayed Khan <img src="/src/assets/junayed12.png" alt="junayed" className="h-6 w-6 rounded-full" />
+              Developed by Junayed Khan <img src={junayed} alt="junayed" className="h-6 w-6 rounded-full" />
               </button>
             </div>
           </div>
