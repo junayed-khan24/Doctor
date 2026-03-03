@@ -13,49 +13,63 @@ const Navbar = () => {
   return (
     <div
       data-aos="fade-down"
-      className="navbar bg-secondary/90 backdrop-blur sticky top-0 z-50 px-6 lg:px-16"
+      className="navbar bg-secondary/90 backdrop-blur sticky top-0 z-50 px-4 sm:px-6 lg:px-16"
     >
       {/* ===== Left Logo ===== */}
       <div className="navbar-start">
-        <a className="text-2xl font-bold text-primary">oxcare</a>
+        <a className="text-xl sm:text-2xl font-bold text-primary">
+          oxcare
+        </a>
       </div>
 
       {/* ===== Mobile Menu ===== */}
-      <div className="navbar-center lg:hidden">
+      <div className="navbar-end lg:hidden">
         <div className="dropdown dropdown-end">
-          <label tabIndex={0} className="btn btn-ghost">
+          <label tabIndex={0} className="btn btn-ghost text-xl">
             ☰
           </label>
 
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-4 shadow bg-white rounded-box w-52 text-gray-700"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-4 shadow bg-white rounded-box w-52 text-gray-700 space-y-1"
           >
             <li><a>Home</a></li>
             <li><a>About</a></li>
             <li><a>Doctors</a></li>
             <li><a>Services</a></li>
             <li><a>Contact</a></li>
-            <li className="mt-2"><button className="btn btn-success btn-sm text-white">Signup</button></li>
+
+            <div className="pt-2 border-t">
+              <button className="btn btn-outline btn-sm w-full mb-2">
+                Login
+              </button>
+              <button className="btn btn-success btn-sm w-full text-white">
+                Signup
+              </button>
+            </div>
           </ul>
         </div>
       </div>
 
       {/* ===== Desktop Menu ===== */}
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 gap-6 text-gray-700 font-medium">
-          <li><a className="hover:text-primary">Home</a></li>
-          <li><a className="hover:text-primary">About</a></li>
-          <li><a className="hover:text-primary">Doctors</a></li>
-          <li><a className="hover:text-primary">Services</a></li>
-          <li><a className="hover:text-primary">Contact</a></li>
+        <ul className="menu menu-horizontal px-1 gap-4 xl:gap-6 text-gray-700 font-medium">
+          <li><a className="hover:text-primary transition">Home</a></li>
+          <li><a className="hover:text-primary transition">About</a></li>
+          <li><a className="hover:text-primary transition">Doctors</a></li>
+          <li><a className="hover:text-primary transition">Services</a></li>
+          <li><a className="hover:text-primary transition">Contact</a></li>
         </ul>
       </div>
 
       {/* ===== Right Buttons ===== */}
-      <div className="navbar-end gap-3 hidden lg:flex">
-        <button className="btn btn-outline border-primary text-primary hover:bg-primary hover:text-white rounded-full">Login</button>
-        <button className="btn btn-primary rounded-full text-white">Signup</button>
+      <div className="navbar-end gap-2 hidden lg:flex">
+        <button className="btn btn-outline border-primary text-primary hover:bg-primary hover:text-white rounded-full px-4">
+          Login
+        </button>
+        <button className="btn btn-primary rounded-full text-white px-4">
+          Signup
+        </button>
       </div>
     </div>
   );
