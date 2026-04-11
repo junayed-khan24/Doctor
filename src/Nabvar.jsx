@@ -67,7 +67,7 @@ const Navbar = () => {
         <button className="btn btn-outline border-primary text-primary hover:bg-primary hover:text-white rounded-full px-4">
           Login
         </button>
-        <button className="btn btn-primary rounded-full text-white px-4">
+        <button className="btn btn-primary rounded-full text-white hover:bg-white hover:text-primary px-4">
           Signup
         </button>
       </div>
