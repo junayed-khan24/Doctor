@@ -79,7 +79,7 @@ const Footer = () => {
           © 2022 All Rights Reserved
         </div>
 
-        <a href="https://junayedkhan.vercel.app" target="_blank" rel="noopener noreferrer">
+        <a href="https://junayedkhan.me" target="_blank" rel="noopener noreferrer">
           <div>
               <div className="flex justify-center mt-4">
            <button className="btn btn-link text-white hover:text-gray-500 border-white underline-none" >
