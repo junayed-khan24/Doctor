@@ -53,7 +53,7 @@ const Navbar = () => {
 
       {/* ===== Desktop Menu ===== */}
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 gap-4 xl:gap-6 text-gray-600 font-medium">
+        <ul className="menu menu-horizontal px-1 gap-4 xl:gap-6 text-gray-700 font-medium">
           <li><a className="hover:text-primary transition">Home</a></li>
           <li><a className="hover:text-primary transition">About</a></li>
           <li><a className="hover:text-primary transition">Doctors</a></li>
