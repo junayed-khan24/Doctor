@@ -12,11 +12,13 @@ const Navbar = () => {
 
   return (
     <div
-      data-aos="fade-down"
+      
       className="navbar bg-secondary/90 backdrop-blur sticky top-0 z-50 px-4 sm:px-6 lg:px-16"
     >
       {/* ===== Left Logo ===== */}
-      <div className="navbar-start">
+      <div
+      data-aos="fade-down"
+      className="navbar-start">
         <a className="text-xl sm:text-2xl font-bold text-primary">
           oxcare
         </a>
